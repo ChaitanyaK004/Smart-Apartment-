@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Smart Apartment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🏢</span>
+        Smart Apartment
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="notices.html">Notices</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="maintenance.html">Maintenance</a>
+        <a href="events.html">Events</a>
+        <a href="parking.html">Parking</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+</header>
+
+
+<main class="page-container">
+
+    <div class="page-title">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h1>Contact Society Office</h1>
+
+        <p>
+            Need help? Contact the society management team.
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <div class="contact-card">
+                <div>📍</div>
+
+                <div>
+                    <h3>Society Office</h3>
+                    <p>
+                        Green Valley Residency,<br>
+                        Main Road, Pune
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+
+                <div>📞</div>
+
+                <div>
+                    <h3>Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div>✉️</div>
+
+                <div>
+                    <h3>Email</h3>
+                    <p>society@example.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div>🕘</div>
+
+                <div>
+                    <h3>Office Hours</h3>
+                    <p>
+                        Monday - Saturday<br>
+                        9:00 AM - 6:00 PM
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="form-card">
+
+            <h2>Send a Message</h2>
+
+            <form onsubmit="sendMessage(event)">
+
+                <label>Your Name</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label>Subject</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter subject"
+                    required
+                >
+
+
+                <label>Message</label>
+
+                <textarea
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="copyright">
+        © 2026 Smart Apartment Society. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

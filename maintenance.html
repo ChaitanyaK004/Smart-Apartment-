@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maintenance | Smart Apartment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🏢</span>
+        Smart Apartment
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="notices.html">Notices</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="maintenance.html" class="active">Maintenance</a>
+        <a href="events.html">Events</a>
+        <a href="parking.html">Parking</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<main class="page-container">
+
+    <div class="page-title">
+
+        <p class="section-label">PAYMENT CENTER</p>
+
+        <h1>Maintenance</h1>
+
+        <p>
+            Manage your monthly apartment maintenance payments.
+        </p>
+
+    </div>
+
+
+    <div class="payment-summary">
+
+        <div class="payment-card">
+
+            <span>Current Due</span>
+
+            <strong>₹2,500</strong>
+
+            <small>August 2026</small>
+
+            <button
+                class="primary-btn"
+                onclick="payMaintenance()"
+            >
+                Pay Now
+            </button>
+
+        </div>
+
+
+        <div class="payment-card">
+
+            <span>Last Payment</span>
+
+            <strong>₹2,500</strong>
+
+            <small>July 2026</small>
+
+            <span class="paid">
+                ✓ Paid
+            </span>
+
+        </div>
+
+
+        <div class="payment-card">
+
+            <span>Annual Maintenance</span>
+
+            <strong>₹30,000</strong>
+
+            <small>2026 - 2027</small>
+
+            <span class="paid">
+                7 / 12 Months Paid
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <section class="table-card">
+
+        <div class="panel-heading">
+
+            <h2>Payment History</h2>
+
+        </div>
+
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Month</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Receipt</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>July 2026</td>
+                        <td>₹2,500</td>
+                        <td>05/07/2026</td>
+                        <td>REC-1024</td>
+                        <td><span class="status resolved">Paid</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>June 2026</td>
+                        <td>₹2,500</td>
+                        <td>05/06/2026</td>
+                        <td>REC-0987</td>
+                        <td><span class="status resolved">Paid</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>May 2026</td>
+                        <td>₹2,500</td>
+                        <td>06/05/2026</td>
+                        <td>REC-0951</td>
+                        <td><span class="status resolved">Paid</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>April 2026</td>
+                        <td>₹2,500</td>
+                        <td>05/04/2026</td>
+                        <td>REC-0912</td>
+                        <td><span class="status resolved">Paid</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="copyright">
+        © 2026 Smart Apartment Society. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="js/maintenance.js"></script>
+
+</body>
+</html>

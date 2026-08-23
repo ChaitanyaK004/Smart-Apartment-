@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complaints | Smart Apartment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🏢</span>
+        Smart Apartment
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="notices.html">Notices</a>
+        <a href="complaints.html" class="active">Complaints</a>
+        <a href="maintenance.html">Maintenance</a>
+        <a href="events.html">Events</a>
+        <a href="parking.html">Parking</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<main class="page-container">
+
+    <div class="page-title">
+
+        <p class="section-label">SERVICE REQUEST</p>
+
+        <h1>Complaints & Maintenance</h1>
+
+        <p>
+            Report an issue and track your complaint status.
+        </p>
+
+    </div>
+
+
+    <div class="form-layout">
+
+        <!-- FORM -->
+
+        <div class="form-card">
+
+            <h2>Submit New Complaint</h2>
+
+            <form id="complaintForm">
+
+                <label>Complaint Category</label>
+
+                <select id="category" required>
+
+                    <option value="">Select category</option>
+                    <option>Plumbing</option>
+                    <option>Electricity</option>
+                    <option>Cleaning</option>
+                    <option>Security</option>
+                    <option>Parking</option>
+                    <option>Other</option>
+
+                </select>
+
+
+                <label>Subject</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Enter complaint subject"
+                    required
+                >
+
+
+                <label>Description</label>
+
+                <textarea
+                    id="description"
+                    rows="5"
+                    placeholder="Describe your problem..."
+                    required
+                ></textarea>
+
+
+                <label>Priority</label>
+
+                <select id="priority">
+
+                    <option>Normal</option>
+                    <option>High</option>
+                    <option>Urgent</option>
+
+                </select>
+
+
+                <button type="submit" class="primary-btn">
+                    Submit Complaint
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- STATUS -->
+
+        <div class="form-card">
+
+            <h2>My Complaints</h2>
+
+            <div id="complaintList">
+
+                <div class="complaint-item">
+
+                    <div>
+
+                        <span class="complaint-id">
+                            #CMP1024
+                        </span>
+
+                        <h3>Water leakage in bathroom</h3>
+
+                        <p>Plumbing • High Priority</p>
+
+                    </div>
+
+                    <span class="status pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <div class="complaint-item">
+
+                    <div>
+
+                        <span class="complaint-id">
+                            #CMP1021
+                        </span>
+
+                        <h3>Lift light not working</h3>
+
+                        <p>Electricity • Normal Priority</p>
+
+                    </div>
+
+                    <span class="status resolved">
+                        Resolved
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="copyright">
+        © 2026 Smart Apartment Society. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="js/complaints.js"></script>
+
+</body>
+</html>

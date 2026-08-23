@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Society Notices | Smart Apartment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>🏢</span>
+            Smart Apartment
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="notices.html" class="active">Notices</a>
+            <a href="complaints.html">Complaints</a>
+            <a href="maintenance.html">Maintenance</a>
+            <a href="events.html">Events</a>
+            <a href="parking.html">Parking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="dashboard.html" class="login-btn">
+            Dashboard
+        </a>
+
+    </header>
+
+
+    <!-- NOTICE PAGE -->
+
+    <main class="page-container">
+
+        <div class="page-title">
+
+            <p class="section-label">
+                COMMUNITY UPDATES
+            </p>
+
+            <h1>
+                Society Notice Board
+            </h1>
+
+            <p>
+                Stay updated with the latest announcements
+                and important information.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="notice-search">
+
+            <input
+                type="text"
+                id="noticeSearch"
+                placeholder="Search notices..."
+                onkeyup="searchNotices()"
+            >
+
+        </div>
+
+
+        <!-- NOTICE LIST -->
+
+        <div class="notice-list" id="noticeList">
+
+
+            <!-- NOTICE 1 -->
+
+            <article class="large-notice">
+
+                <div class="notice-date-box">
+                    <strong>30</strong>
+                    <span>AUG</span>
+                </div>
+
+                <div class="notice-details">
+
+                    <span class="notice-tag important">
+                        IMPORTANT
+                    </span>
+
+                    <h2>
+                        Monthly Society Meeting
+                    </h2>
+
+                    <p>
+                        The monthly society meeting will be held
+                        at the community hall. All residents are
+                        requested to attend the meeting.
+                    </p>
+
+                    <div class="notice-meta">
+                        📅 30 August 2026 &nbsp; | &nbsp;
+                        🕘 10:00 AM &nbsp; | &nbsp;
+                        📍 Community Hall
+                    </div>
+
+                    <small>
+                        Posted on 22 August 2026
+                    </small>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTICE 2 -->
+
+            <article class="large-notice">
+
+                <div class="notice-date-box">
+                    <strong>28</strong>
+                    <span>AUG</span>
+                </div>
+
+                <div class="notice-details">
+
+                    <span class="notice-tag">
+                        MAINTENANCE
+                    </span>
+
+                    <h2>
+                        Water Tank Cleaning
+                    </h2>
+
+                    <p>
+                        Water tank cleaning will be carried out
+                        on Sunday. Water supply may be temporarily
+                        affected during the cleaning process.
+                    </p>
+
+                    <div class="notice-meta">
+                        📅 28 August 2026 &nbsp; | &nbsp;
+                        🕘 9:00 AM - 2:00 PM
+                    </div>
+
+                    <small>
+                        Posted on 21 August 2026
+                    </small>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTICE 3 -->
+
+            <article class="large-notice">
+
+                <div class="notice-date-box">
+                    <strong>25</strong>
+                    <span>AUG</span>
+                </div>
+
+                <div class="notice-details">
+
+                    <span class="notice-tag security">
+                        SECURITY
+                    </span>
+
+                    <h2>
+                        Visitor Entry Guidelines
+                    </h2>
+
+                    <p>
+                        All residents are requested to register
+                        their visitors at the main security gate.
+                        Please cooperate with security personnel.
+                    </p>
+
+                    <div class="notice-meta">
+                        🔐 Security Department
+                    </div>
+
+                    <small>
+                        Posted on 20 August 2026
+                    </small>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTICE 4 -->
+
+            <article class="large-notice">
+
+                <div class="notice-date-box">
+                    <strong>15</strong>
+                    <span>SEP</span>
+                </div>
+
+                <div class="notice-details">
+
+                    <span class="notice-tag event">
+                        EVENT
+                    </span>
+
+                    <h2>
+                        Annual Society Gathering
+                    </h2>
+
+                    <p>
+                        Our annual community gathering will include
+                        games, cultural programs, music and dinner.
+                        All residents are invited.
+                    </p>
+
+                    <div class="notice-meta">
+                        📅 15 September 2026 &nbsp; | &nbsp;
+                        📍 Society Ground
+                    </div>
+
+                    <small>
+                        Posted on 18 August 2026
+                    </small>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTICE 5 -->
+
+            <article class="large-notice">
+
+                <div class="notice-date-box">
+                    <strong>20</strong>
+                    <span>SEP</span>
+                </div>
+
+                <div class="notice-details">
+
+                    <span class="notice-tag sports">
+                        SPORTS
+                    </span>
+
+                    <h2>
+                        Inter-Building Cricket Tournament
+                    </h2>
+
+                    <p>
+                        Residents can register their teams for
+                        the upcoming inter-building cricket
+                        tournament.
+                    </p>
+
+                    <div class="notice-meta">
+                        🏏 Registration open until 10 September
+                    </div>
+
+                    <small>
+                        Posted on 17 August 2026
+                    </small>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="copyright">
+
+            © 2026 Smart Apartment Society.
+            All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        function searchNotices() {
+
+            const searchInput =
+                document.getElementById("noticeSearch");
+
+            const searchText =
+                searchInput.value.toLowerCase();
+
+            const notices =
+                document.querySelectorAll(".large-notice");
+
+            notices.forEach(function(notice) {
+
+                const text =
+                    notice.innerText.toLowerCase();
+
+                if (text.includes(searchText)) {
+
+                    notice.style.display = "flex";
+
+                } else {
+
+                    notice.style.display = "none";
+
+                }
+
+            });
+
+        }
+
+    </script>
+
+</body>
+
+</html>

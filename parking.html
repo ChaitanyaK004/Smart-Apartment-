@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parking | Smart Apartment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🏢</span>
+        Smart Apartment
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="notices.html">Notices</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="maintenance.html">Maintenance</a>
+        <a href="events.html">Events</a>
+        <a href="parking.html" class="active">Parking</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<main class="page-container">
+
+    <div class="page-title">
+
+        <p class="section-label">VEHICLE MANAGEMENT</p>
+
+        <h1>Parking Management</h1>
+
+        <p>
+            View your assigned parking slots and registered vehicles.
+        </p>
+
+    </div>
+
+
+    <div class="parking-summary">
+
+        <div class="parking-card">
+            <span>Your Slot</span>
+            <strong>A-42</strong>
+            <small>Basement 1</small>
+        </div>
+
+        <div class="parking-card">
+            <span>Total Slots</span>
+            <strong>320</strong>
+            <small>Society parking</small>
+        </div>
+
+        <div class="parking-card">
+            <span>Available</span>
+            <strong>18</strong>
+            <small>Visitor parking</small>
+        </div>
+
+    </div>
+
+
+    <section class="table-card">
+
+        <div class="panel-heading">
+
+            <h2>My Vehicles</h2>
+
+            <button class="primary-btn">
+                + Add Vehicle
+            </button>
+
+        </div>
+
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Vehicle</th>
+                        <th>Number</th>
+                        <th>Type</th>
+                        <th>Parking Slot</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>🚗 Car</td>
+                        <td>MH 12 AB 1234</td>
+                        <td>Personal</td>
+                        <td>A-42</td>
+                        <td>
+                            <span class="status resolved">
+                                Active
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>🏍️ Bike</td>
+                        <td>MH 12 XY 5678</td>
+                        <td>Personal</td>
+                        <td>A-43</td>
+                        <td>
+                            <span class="status resolved">
+                                Active
+                            </span>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <section class="parking-availability">
+
+        <h2>Parking Availability</h2>
+
+        <div class="parking-slots">
+
+            <div class="slot occupied">A-01</div>
+            <div class="slot occupied">A-02</div>
+            <div class="slot available">A-03</div>
+            <div class="slot available">A-04</div>
+            <div class="slot occupied">A-05</div>
+            <div class="slot available">A-06</div>
+            <div class="slot occupied">A-07</div>
+            <div class="slot available">A-08</div>
+
+        </div>
+
+        <div class="parking-legend">
+
+            <span>
+                <i class="legend-box occupied"></i>
+                Occupied
+            </span>
+
+            <span>
+                <i class="legend-box available"></i>
+                Available
+            </span>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="copyright">
+        © 2026 Smart Apartment Society. All Rights Reserved.
+    </div>
+
+</footer>
+
+</body>
+</html>
